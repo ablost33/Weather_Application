@@ -1,0 +1,64 @@
+/* h1 {
+    color: grey;
+}
+
+img {
+    width: 250px;
+} */
+
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+
+    /* Enabling flex box: */
+    display: flex;
+    flex-direction: column;
+    /* Here we got 100% of the viewport height */
+    min-height: 100vh;
+}
+
+.main-content{
+    /* Tells flex box that main content should take over all unused space */
+    flex-grow: 1;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;s
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+/* so here we are just targetting our links inside the header */
+header a{
+    color: #888888;
+    margin-right: 16px;
+    /* This next command removes the underline to the links */
+    text-decoration: none;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    cursor:pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
