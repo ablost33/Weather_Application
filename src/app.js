@@ -6,7 +6,6 @@ const forecast = require('./utils/forecast')
 
 const app = express()
 
-const port = 
 
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
